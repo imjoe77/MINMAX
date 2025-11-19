@@ -4,10 +4,7 @@ if len(sys.argv) == 3:
     file_name = sys.argv[0]
     a = int(sys.argv[1])
     b = int(sys.argv[2])
-else:
-    a = 10
-    b = 20
-    print("Default values taken")
+
 
 if a > b:
     print(f"Max value is {a}")
