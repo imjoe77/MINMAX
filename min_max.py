@@ -1,6 +1,6 @@
 import sys
 
-if len(sys.argv) == 3:
+if len(sys.argv) == 2:
     file_name = sys.argv[0]
     a = int(sys.argv[1])
     b = int(sys.argv[2])
